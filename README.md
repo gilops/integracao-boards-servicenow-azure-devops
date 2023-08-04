@@ -19,7 +19,10 @@ Integração de incidentes e solicitações do ServiceNow com o boards Microsoft
 ## Como usar:
 1. Atribuir valores para as variáveis;
 2. Criar webhook no projeto que será integrado no Azure DevOps;
-3. Criar Work Item Type com os campos que serão integrados;
-4. Substituir os valores específicos dos campos que serão integrados;
-5. Substituir os estados dos cards que serão integrados.
+3. Criar REST Message no ServiceNow com métodos para integração;
+4. Criar Scripted REST APIs no ServiceNow preenchendo com webhooks definidos no AzureDevOps;
+5. Criar Workflow ou Business Rules para chamar o script de Integração;
+6. Criar Work Item Type com os campos que serão integrados;
+7. Substituir os valores específicos dos campos que serão integrados;
+8. Substituir os estados dos cards que serão integrados.
    
