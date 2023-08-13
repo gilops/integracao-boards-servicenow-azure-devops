@@ -9,6 +9,7 @@ Integração de incidentes e solicitações do ServiceNow com o boards Microsoft
 
 ## Estrutura do projeto:
 - integracaoAzureBoardsReq.js: arquivo com o script para integrar os ambientes
+- retornoAzureDevOpsServiceNow.js: arquivo com o script para receber o retorno da resposta do Azure DevOps dentro do ServiceNow
 
 ## Variáveis:
 - organization = Organização do Azure DevOps;
